@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Opsilon';
+  src: url('./fonts/Opsilon.ttf') format('ttf');
+}
+
+@layer base {
+  #root {
+    @apply h-full;
+  }
+
+  html,
+  body {
+    @apply h-full;
+
+    @apply select-none;
+
+    @apply bg-zinc-200;
+
+    @apply font-opsilon antialiased text-black;
+
+    @apply overflow-hidden;
+  }
+
+  h2 {
+    @apply font-bold text-2xl;
+  }
+}
