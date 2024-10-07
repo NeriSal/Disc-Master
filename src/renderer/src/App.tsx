@@ -1,12 +1,9 @@
-import { Content, InfoScreen, RootLayout, Sidebar } from '@/components'
+import { RootLayout, StartScreen } from '@/components'
 
 function App() {
   return (
     <RootLayout>
-      <Sidebar className="rounded-r-[40px] shadow-nm"></Sidebar>
-      <Content className="">
-        <InfoScreen />
-      </Content>
+      <StartScreen />
     </RootLayout>
   )
 }
