@@ -1,7 +1,7 @@
 import { ComponentProps } from 'react'
 import applicationIcon from '../../../../resources/icon.svg'
-import { Content, Sidebar } from './AppLayout'
-import { StartScreenMenu } from './StartScreenMenu'
+import { Content, Sidebar } from './elements/AppLayout'
+import { StartScreenMenu } from './elements/StartScreenMenu'
 
 export const StartScreen = ({ ...props }: ComponentProps<'div'>) => {
   return (

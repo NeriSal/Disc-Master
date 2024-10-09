@@ -1,9 +1,9 @@
-import { RootLayout, StartScreen } from '@/components'
+import { ConsoleScreen, RootLayout } from '@/components'
 
 function App() {
   return (
     <RootLayout>
-      <StartScreen />
+      <ConsoleScreen />
     </RootLayout>
   )
 }
