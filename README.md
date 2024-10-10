@@ -1,5 +1,6 @@
 # **DISC MASTER**
 
+**The app is still in development. Star the repository to keep you updated on the progress. If you want to contribute please open an Issue first**
 
 
 # Development 
