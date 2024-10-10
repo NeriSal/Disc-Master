@@ -1,6 +1,10 @@
 # DISC MASTER
 
-An Electron application with React and TypeScript
+
+
+# Development 
+
+Disc Master is an Electron application built with React and TypeScript
 
 ## Recommended IDE Setup
 
